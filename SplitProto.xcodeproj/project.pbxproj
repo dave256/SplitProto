@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D6B28E1365F272000950D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D6B28D1365F272000950D2 /* UIKit.framework */; };
+		03D6B2901365F272000950D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D6B28F1365F272000950D2 /* Foundation.framework */; };
+		03D6B2921365F272000950D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D6B2911365F272000950D2 /* CoreGraphics.framework */; };
+		03D6B2981365F272000950D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D6B2961365F272000950D2 /* InfoPlist.strings */; };
+		03D6B29B1365F272000950D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B29A1365F272000950D2 /* main.m */; };
+		03D6B29E1365F272000950D2 /* SplitProtoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B29D1365F272000950D2 /* SplitProtoAppDelegate.m */; };
+		03D6B2A11365F272000950D2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D6B29F1365F272000950D2 /* MainWindow.xib */; };
+		03D6B2A41365F272000950D2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2A31365F272000950D2 /* DetailViewController.m */; };
+		03D6B2A71365F272000950D2 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D6B2A51365F272000950D2 /* DetailView.xib */; };
+		03D6B2AA1365F272000950D2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2A91365F272000950D2 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03D6B2891365F272000950D2 /* SplitProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D6B28D1365F272000950D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03D6B28F1365F272000950D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03D6B2911365F272000950D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03D6B2951365F272000950D2 /* SplitProto-Info.plist */ = {isa = PBXFileReference; path = "SplitProto-Info.plist"; sourceTree = "<group>"; };
+		03D6B2971365F272000950D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03D6B2991365F272000950D2 /* SplitProto-Prefix.pch */ = {isa = PBXFileReference; path = "SplitProto-Prefix.pch"; sourceTree = "<group>"; };
+		03D6B29A1365F272000950D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03D6B29C1365F272000950D2 /* SplitProtoAppDelegate.h */ = {isa = PBXFileReference; path = SplitProtoAppDelegate.h; sourceTree = "<group>"; };
+		03D6B29D1365F272000950D2 /* SplitProtoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitProtoAppDelegate.m; sourceTree = "<group>"; };
+		03D6B2A01365F272000950D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		03D6B2A21365F272000950D2 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		03D6B2A31365F272000950D2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		03D6B2A61365F272000950D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		03D6B2A81365F272000950D2 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		03D6B2A91365F272000950D2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D6B2861365F272000950D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D6B28E1365F272000950D2 /* UIKit.framework in Frameworks */,
+				03D6B2901365F272000950D2 /* Foundation.framework in Frameworks */,
+				03D6B2921365F272000950D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D6B27E1365F272000950D2 = {
+			isa = PBXGroup;
+			children = (
+				03D6B2931365F272000950D2 /* SplitProto */,
+				03D6B28C1365F272000950D2 /* Frameworks */,
+				03D6B28A1365F272000950D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03D6B28A1365F272000950D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D6B2891365F272000950D2 /* SplitProto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D6B28C1365F272000950D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03D6B28D1365F272000950D2 /* UIKit.framework */,
+				03D6B28F1365F272000950D2 /* Foundation.framework */,
+				03D6B2911365F272000950D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03D6B2931365F272000950D2 /* SplitProto */ = {
+			isa = PBXGroup;
+			children = (
+				03D6B29C1365F272000950D2 /* SplitProtoAppDelegate.h */,
+				03D6B29D1365F272000950D2 /* SplitProtoAppDelegate.m */,
+				03D6B29F1365F272000950D2 /* MainWindow.xib */,
+				03D6B2A21365F272000950D2 /* DetailViewController.h */,
+				03D6B2A31365F272000950D2 /* DetailViewController.m */,
+				03D6B2A51365F272000950D2 /* DetailView.xib */,
+				03D6B2A81365F272000950D2 /* RootViewController.h */,
+				03D6B2A91365F272000950D2 /* RootViewController.m */,
+				03D6B2941365F272000950D2 /* Supporting Files */,
+			);
+			path = SplitProto;
+			sourceTree = "<group>";
+		};
+		03D6B2941365F272000950D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03D6B2951365F272000950D2 /* SplitProto-Info.plist */,
+				03D6B2961365F272000950D2 /* InfoPlist.strings */,
+				03D6B2991365F272000950D2 /* SplitProto-Prefix.pch */,
+				03D6B29A1365F272000950D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D6B2881365F272000950D2 /* SplitProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D6B2AD1365F272000950D2 /* Build configuration list for PBXNativeTarget "SplitProto" */;
+			buildPhases = (
+				03D6B2851365F272000950D2 /* Sources */,
+				03D6B2861365F272000950D2 /* Frameworks */,
+				03D6B2871365F272000950D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitProto;
+			productName = SplitProto;
+			productReference = 03D6B2891365F272000950D2 /* SplitProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D6B2801365F272000950D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = dave256apps.com;
+			};
+			buildConfigurationList = 03D6B2831365F272000950D2 /* Build configuration list for PBXProject "SplitProto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03D6B27E1365F272000950D2;
+			productRefGroup = 03D6B28A1365F272000950D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D6B2881365F272000950D2 /* SplitProto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D6B2871365F272000950D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D6B2981365F272000950D2 /* InfoPlist.strings in Resources */,
+				03D6B2A11365F272000950D2 /* MainWindow.xib in Resources */,
+				03D6B2A71365F272000950D2 /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D6B2851365F272000950D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D6B29B1365F272000950D2 /* main.m in Sources */,
+				03D6B29E1365F272000950D2 /* SplitProtoAppDelegate.m in Sources */,
+				03D6B2A41365F272000950D2 /* DetailViewController.m in Sources */,
+				03D6B2AA1365F272000950D2 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03D6B2961365F272000950D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D6B2971365F272000950D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03D6B29F1365F272000950D2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D6B2A01365F272000950D2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		03D6B2A51365F272000950D2 /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D6B2A61365F272000950D2 /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03D6B2AB1365F272000950D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		03D6B2AC1365F272000950D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		03D6B2AE1365F272000950D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SplitProto/SplitProto-Prefix.pch";
+				INFOPLIST_FILE = "SplitProto/SplitProto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03D6B2AF1365F272000950D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SplitProto/SplitProto-Prefix.pch";
+				INFOPLIST_FILE = "SplitProto/SplitProto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D6B2831365F272000950D2 /* Build configuration list for PBXProject "SplitProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D6B2AB1365F272000950D2 /* Debug */,
+				03D6B2AC1365F272000950D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D6B2AD1365F272000950D2 /* Build configuration list for PBXNativeTarget "SplitProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D6B2AE1365F272000950D2 /* Debug */,
+				03D6B2AF1365F272000950D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D6B2801365F272000950D2 /* Project object */;
+}
