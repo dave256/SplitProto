@@ -17,6 +17,10 @@
 		03D6B2A41365F272000950D2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2A31365F272000950D2 /* DetailViewController.m */; };
 		03D6B2A71365F272000950D2 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D6B2A51365F272000950D2 /* DetailView.xib */; };
 		03D6B2AA1365F272000950D2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2A91365F272000950D2 /* RootViewController.m */; };
+		03D6B2BA136602E2000950D2 /* PRPNibBasedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2B9136602E2000950D2 /* PRPNibBasedTableViewCell.m */; };
+		03D6B2C0136604AB000950D2 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2BF136604AB000950D2 /* DetailTableViewCell.m */; };
+		03D6B2C2136604C5000950D2 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D6B2C1136604C5000950D2 /* DetailTableViewCell.xib */; };
+		03D6B2CD13660B4B000950D2 /* UITableView+PRPSubviewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2CC13660B4B000950D2 /* UITableView+PRPSubviewAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,18 +28,25 @@
 		03D6B28D1365F272000950D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03D6B28F1365F272000950D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03D6B2911365F272000950D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		03D6B2951365F272000950D2 /* SplitProto-Info.plist */ = {isa = PBXFileReference; path = "SplitProto-Info.plist"; sourceTree = "<group>"; };
+		03D6B2951365F272000950D2 /* SplitProto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SplitProto-Info.plist"; sourceTree = "<group>"; };
 		03D6B2971365F272000950D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		03D6B2991365F272000950D2 /* SplitProto-Prefix.pch */ = {isa = PBXFileReference; path = "SplitProto-Prefix.pch"; sourceTree = "<group>"; };
+		03D6B2991365F272000950D2 /* SplitProto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplitProto-Prefix.pch"; sourceTree = "<group>"; };
 		03D6B29A1365F272000950D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03D6B29C1365F272000950D2 /* SplitProtoAppDelegate.h */ = {isa = PBXFileReference; path = SplitProtoAppDelegate.h; sourceTree = "<group>"; };
+		03D6B29C1365F272000950D2 /* SplitProtoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitProtoAppDelegate.h; sourceTree = "<group>"; };
 		03D6B29D1365F272000950D2 /* SplitProtoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitProtoAppDelegate.m; sourceTree = "<group>"; };
 		03D6B2A01365F272000950D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		03D6B2A21365F272000950D2 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		03D6B2A21365F272000950D2 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		03D6B2A31365F272000950D2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		03D6B2A61365F272000950D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
-		03D6B2A81365F272000950D2 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		03D6B2A81365F272000950D2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		03D6B2A91365F272000950D2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		03D6B2B8136602E2000950D2 /* PRPNibBasedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPNibBasedTableViewCell.h; path = "../../../../Downloads/iOS-Recipes-code/SmarterTableCellsNib/Shared/PRPNibBasedTableViewCell.h"; sourceTree = "<group>"; };
+		03D6B2B9136602E2000950D2 /* PRPNibBasedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRPNibBasedTableViewCell.m; path = "../../../../Downloads/iOS-Recipes-code/SmarterTableCellsNib/Shared/PRPNibBasedTableViewCell.m"; sourceTree = "<group>"; };
+		03D6B2BE136604AB000950D2 /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		03D6B2BF136604AB000950D2 /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		03D6B2C1136604C5000950D2 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		03D6B2CB13660B4B000950D2 /* UITableView+PRPSubviewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+PRPSubviewAdditions.h"; path = "../../../../Downloads/iOS-Recipes-code/CellSubviewLocation/Classes/UITableView+PRPSubviewAdditions.h"; sourceTree = "<group>"; };
+		03D6B2CC13660B4B000950D2 /* UITableView+PRPSubviewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+PRPSubviewAdditions.m"; path = "../../../../Downloads/iOS-Recipes-code/CellSubviewLocation/Classes/UITableView+PRPSubviewAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,10 @@
 		03D6B2931365F272000950D2 /* SplitProto */ = {
 			isa = PBXGroup;
 			children = (
+				03D6B2CB13660B4B000950D2 /* UITableView+PRPSubviewAdditions.h */,
+				03D6B2CC13660B4B000950D2 /* UITableView+PRPSubviewAdditions.m */,
+				03D6B2B8136602E2000950D2 /* PRPNibBasedTableViewCell.h */,
+				03D6B2B9136602E2000950D2 /* PRPNibBasedTableViewCell.m */,
 				03D6B29C1365F272000950D2 /* SplitProtoAppDelegate.h */,
 				03D6B29D1365F272000950D2 /* SplitProtoAppDelegate.m */,
 				03D6B29F1365F272000950D2 /* MainWindow.xib */,
@@ -91,6 +106,9 @@
 				03D6B2A81365F272000950D2 /* RootViewController.h */,
 				03D6B2A91365F272000950D2 /* RootViewController.m */,
 				03D6B2941365F272000950D2 /* Supporting Files */,
+				03D6B2BE136604AB000950D2 /* DetailTableViewCell.h */,
+				03D6B2BF136604AB000950D2 /* DetailTableViewCell.m */,
+				03D6B2C1136604C5000950D2 /* DetailTableViewCell.xib */,
 			);
 			path = SplitProto;
 			sourceTree = "<group>";
@@ -159,6 +177,7 @@
 				03D6B2981365F272000950D2 /* InfoPlist.strings in Resources */,
 				03D6B2A11365F272000950D2 /* MainWindow.xib in Resources */,
 				03D6B2A71365F272000950D2 /* DetailView.xib in Resources */,
+				03D6B2C2136604C5000950D2 /* DetailTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +192,9 @@
 				03D6B29E1365F272000950D2 /* SplitProtoAppDelegate.m in Sources */,
 				03D6B2A41365F272000950D2 /* DetailViewController.m in Sources */,
 				03D6B2AA1365F272000950D2 /* RootViewController.m in Sources */,
+				03D6B2BA136602E2000950D2 /* PRPNibBasedTableViewCell.m in Sources */,
+				03D6B2C0136604AB000950D2 /* DetailTableViewCell.m in Sources */,
+				03D6B2CD13660B4B000950D2 /* UITableView+PRPSubviewAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

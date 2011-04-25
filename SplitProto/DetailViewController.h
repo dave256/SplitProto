@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController <UIPopoverControllerDelegate, UISplitViewControllerDelegate> {
+@interface DetailViewController : UIViewController <UIPopoverControllerDelegate, UISplitViewControllerDelegate, UITextFieldDelegate> {
 
 }
 
@@ -18,5 +18,9 @@
 @property (nonatomic, retain) id detailItem;
 
 @property (nonatomic, retain) IBOutlet UILabel *detailDescriptionLabel;
+@property (nonatomic, retain) UINib *detailCellNib;
+
+@property (nonatomic, retain) IBOutlet UITableView *theTableView;
+
 
 @end

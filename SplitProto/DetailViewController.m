@@ -7,8 +7,11 @@
 //
 
 #import "DetailViewController.h"
-
+#import "DetailTableViewCell.h"
 #import "RootViewController.h"
+
+#import "UITableView+PRPSubviewAdditions.h"
+
 
 @interface DetailViewController ()
 @property (nonatomic, retain) UIPopoverController *popoverController;
@@ -24,6 +27,9 @@
 @synthesize detailDescriptionLabel=_detailDescriptionLabel;
 
 @synthesize popoverController=_myPopoverController;
+
+@synthesize detailCellNib;
+@synthesize theTableView;
 
 #pragma mark - Managing the detail item
 
@@ -132,6 +138,47 @@
     [_detailItem release];
     [_detailDescriptionLabel release];
     [super dealloc];
+}
+
+#pragma mark -
+#pragma mark Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    // Return the number of sections.
+    return 1;
+}
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    // Return the number of rows in the section.
+    return 50;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView 
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    DetailTableViewCell *cell =
+    [DetailTableViewCell cellForTableView:tableView 
+                                      fromNib:self.detailCellNib];
+    cell.label.text = [NSString stringWithFormat:@"cell %d", indexPath.row];
+    //cell.titleLabel.text = [NSString stringWithFormat:@"Cell #%d", indexPath.row];
+    cell.textField.delegate = self;
+
+    return cell;
+}
+
+#pragma mark -
+#pragma mark Accessors
+- (UINib *)detailCellNib {
+    if (detailCellNib == nil) {
+        self.detailCellNib = [DetailTableViewCell nib];
+    }
+    return detailCellNib;    
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    NSIndexPath *indexPath = [theTableView prp_indexPathForRowContainingView:textField];
+    NSLog(@"%d", indexPath.row);
 }
 
 @end
