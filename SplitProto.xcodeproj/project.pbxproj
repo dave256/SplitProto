@@ -17,10 +17,10 @@
 		03D6B2A41365F272000950D2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2A31365F272000950D2 /* DetailViewController.m */; };
 		03D6B2A71365F272000950D2 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D6B2A51365F272000950D2 /* DetailView.xib */; };
 		03D6B2AA1365F272000950D2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2A91365F272000950D2 /* RootViewController.m */; };
-		03D6B2BA136602E2000950D2 /* PRPNibBasedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2B9136602E2000950D2 /* PRPNibBasedTableViewCell.m */; };
 		03D6B2C0136604AB000950D2 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2BF136604AB000950D2 /* DetailTableViewCell.m */; };
 		03D6B2C2136604C5000950D2 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D6B2C1136604C5000950D2 /* DetailTableViewCell.xib */; };
-		03D6B2CD13660B4B000950D2 /* UITableView+PRPSubviewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2CC13660B4B000950D2 /* UITableView+PRPSubviewAdditions.m */; };
+		03D6B2D2136648FE000950D2 /* PRPNibBasedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2CF136648FE000950D2 /* PRPNibBasedTableViewCell.m */; };
+		03D6B2D3136648FE000950D2 /* UITableView+PRPSubviewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6B2D1136648FE000950D2 /* UITableView+PRPSubviewAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,13 +40,13 @@
 		03D6B2A61365F272000950D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
 		03D6B2A81365F272000950D2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		03D6B2A91365F272000950D2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		03D6B2B8136602E2000950D2 /* PRPNibBasedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPNibBasedTableViewCell.h; path = "../../../../Downloads/iOS-Recipes-code/SmarterTableCellsNib/Shared/PRPNibBasedTableViewCell.h"; sourceTree = "<group>"; };
-		03D6B2B9136602E2000950D2 /* PRPNibBasedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRPNibBasedTableViewCell.m; path = "../../../../Downloads/iOS-Recipes-code/SmarterTableCellsNib/Shared/PRPNibBasedTableViewCell.m"; sourceTree = "<group>"; };
 		03D6B2BE136604AB000950D2 /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
 		03D6B2BF136604AB000950D2 /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
 		03D6B2C1136604C5000950D2 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
-		03D6B2CB13660B4B000950D2 /* UITableView+PRPSubviewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+PRPSubviewAdditions.h"; path = "../../../../Downloads/iOS-Recipes-code/CellSubviewLocation/Classes/UITableView+PRPSubviewAdditions.h"; sourceTree = "<group>"; };
-		03D6B2CC13660B4B000950D2 /* UITableView+PRPSubviewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+PRPSubviewAdditions.m"; path = "../../../../Downloads/iOS-Recipes-code/CellSubviewLocation/Classes/UITableView+PRPSubviewAdditions.m"; sourceTree = "<group>"; };
+		03D6B2CE136648FE000950D2 /* PRPNibBasedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPNibBasedTableViewCell.h; sourceTree = "<group>"; };
+		03D6B2CF136648FE000950D2 /* PRPNibBasedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPNibBasedTableViewCell.m; sourceTree = "<group>"; };
+		03D6B2D0136648FE000950D2 /* UITableView+PRPSubviewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+PRPSubviewAdditions.h"; sourceTree = "<group>"; };
+		03D6B2D1136648FE000950D2 /* UITableView+PRPSubviewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PRPSubviewAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +93,10 @@
 		03D6B2931365F272000950D2 /* SplitProto */ = {
 			isa = PBXGroup;
 			children = (
-				03D6B2CB13660B4B000950D2 /* UITableView+PRPSubviewAdditions.h */,
-				03D6B2CC13660B4B000950D2 /* UITableView+PRPSubviewAdditions.m */,
-				03D6B2B8136602E2000950D2 /* PRPNibBasedTableViewCell.h */,
-				03D6B2B9136602E2000950D2 /* PRPNibBasedTableViewCell.m */,
+				03D6B2CE136648FE000950D2 /* PRPNibBasedTableViewCell.h */,
+				03D6B2CF136648FE000950D2 /* PRPNibBasedTableViewCell.m */,
+				03D6B2D0136648FE000950D2 /* UITableView+PRPSubviewAdditions.h */,
+				03D6B2D1136648FE000950D2 /* UITableView+PRPSubviewAdditions.m */,
 				03D6B29C1365F272000950D2 /* SplitProtoAppDelegate.h */,
 				03D6B29D1365F272000950D2 /* SplitProtoAppDelegate.m */,
 				03D6B29F1365F272000950D2 /* MainWindow.xib */,
@@ -192,9 +192,9 @@
 				03D6B29E1365F272000950D2 /* SplitProtoAppDelegate.m in Sources */,
 				03D6B2A41365F272000950D2 /* DetailViewController.m in Sources */,
 				03D6B2AA1365F272000950D2 /* RootViewController.m in Sources */,
-				03D6B2BA136602E2000950D2 /* PRPNibBasedTableViewCell.m in Sources */,
 				03D6B2C0136604AB000950D2 /* DetailTableViewCell.m in Sources */,
-				03D6B2CD13660B4B000950D2 /* UITableView+PRPSubviewAdditions.m in Sources */,
+				03D6B2D2136648FE000950D2 /* PRPNibBasedTableViewCell.m in Sources */,
+				03D6B2D3136648FE000950D2 /* UITableView+PRPSubviewAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +237,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
@@ -252,7 +252,7 @@
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;

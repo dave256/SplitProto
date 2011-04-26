@@ -163,6 +163,7 @@
     cell.label.text = [NSString stringWithFormat:@"cell %d", indexPath.row];
     //cell.titleLabel.text = [NSString stringWithFormat:@"Cell #%d", indexPath.row];
     cell.textField.delegate = self;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
 
     return cell;
 }
